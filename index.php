@@ -15,8 +15,8 @@ class Movie
     }
 }
 
-$title1 = new Movie("La Città Incantata", "Animazione", "4,8");
-$title2 = new Movie("Il Castello Errante di Howl", "Animazione", "4,9");
+$title1 = new Movie("La Città Incantata", "Animazione", 4.8);
+$title2 = new Movie("Il Castello Errante di Howl", "Animazione", 4.9);
 
 var_dump($title1);
 echo "<br><br>";
